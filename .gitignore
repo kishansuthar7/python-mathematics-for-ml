@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter generated files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Editors / operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data: keep documentation, not private/large datasets
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+
+# Build/package metadata
+*.egg-info/
+build/
+dist/
