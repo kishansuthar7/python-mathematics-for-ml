@@ -27,7 +27,9 @@ python-mathematics-for-ml/
 |-- notebooks/
 |   `-- 01_linear_algebra/
 |       |-- 01_vectors.ipynb
-|       `-- 01_vectors_exercises.ipynb
+|       |-- 01_vectors_exercises.ipynb
+|       |-- 02_matrices.ipynb
+|       `-- 02_matrices_exercises.ipynb
 |-- src/
 |   `-- mathml/
 |       `-- linear_algebra/
@@ -54,6 +56,12 @@ The vector module covers:
 The implementation is maintained in `src/mathml/linear_algebra/vectors.py`.
 
 The tests are maintained in `tests/test_vectors.py`.
+
+## Current Learning Progress
+
+- Vectors: Lessons, exercises, implementations, and tests completed.
+- Matrices: Concept lessons, code implementations, and visualizations
+  prepared; exercise notebook and final review in progress.
 
 ## Learning Workflow
 
